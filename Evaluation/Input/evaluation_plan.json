@@ -2,8 +2,8 @@
     "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v3.1/OSP_Qualification_Plan_Schema.json",
     "Projects": [
         {
-            "Id": "Compound",
-            "Path": "../../Compound.json",
+            "Id": "Moxifloxacin",
+            "Path": "../../Moxifloxacin.json",
             "BuildingBlocks": [],
             "SimulationParameters": []
         }
@@ -121,13 +121,73 @@
         },
         "AllPlots": [
             {
-                "Project": "Compound",
-                "Simulation": "Sim 1 - intravenous",
+                "Project": "Moxifloxacin",
+                "Simulation": "Bayer Avelox 3963471_IV_400 mg qd",
                 "SectionReference": "ct-profiles"
             },
             {
-                "Project": "Compound",
-                "Simulation": "Sim 2 - peroral",
+                "Project": "Moxifloxacin",
+                "Simulation": "Bayer Avelox 3963471_PO_400 mg qd",
+                "SectionReference": "ct-profiles"
+            },
+            {
+                "Project": "Moxifloxacin",
+                "Simulation": "Stass 1999_IV_400 mg",
+                "SectionReference": "ct-profiles"
+            },
+            {
+                "Project": "Moxifloxacin",
+                "Simulation": "Stass 1999_PO_400 mg",
+                "SectionReference": "ct-profiles"
+            },
+            {
+                "Project": "Moxifloxacin",
+                "Simulation": "Sullivan 1999_PO_400 mg qd",
+                "SectionReference": "ct-profiles"
+            },
+            {
+                "Project": "Moxifloxacin",
+                "Simulation": "PH 26024/0101_PO_100 mg",
+                "SectionReference": "ct-profiles"
+            },
+            {
+                "Project": "Moxifloxacin",
+                "Simulation": "PH 26024/0101_PO_200 mg",
+                "SectionReference": "ct-profiles"
+            },
+            {
+                "Project": "Moxifloxacin",
+                "Simulation": "PH 26024/0101_PO_400 mg",
+                "SectionReference": "ct-profiles"
+            },
+            {
+                "Project": "Moxifloxacin",
+                "Simulation": "PH 26024/0101_PO_60 mg",
+                "SectionReference": "ct-profiles"
+            },
+            {
+                "Project": "Moxifloxacin",
+                "Simulation": "PH 26024/0101_PO_600 mg",
+                "SectionReference": "ct-profiles"
+            },
+            {
+                "Project": "Moxifloxacin",
+                "Simulation": "PH 27517/0139_IV_400 mg",
+                "SectionReference": "ct-profiles"
+            },
+            {
+                "Project": "Moxifloxacin",
+                "Simulation": "PH 27517/0139_PO_400 mg",
+                "SectionReference": "ct-profiles"
+            },
+            {
+                "Project": "Moxifloxacin",
+                "Simulation": "Siefert 1999_IV_100 mg",
+                "SectionReference": "ct-profiles"
+            },
+            {
+                "Project": "Moxifloxacin",
+                "Simulation": "Siefert 1999_PO_100 mg",
                 "SectionReference": "ct-profiles"
             }
         ],
@@ -146,27 +206,111 @@
                 ],
                 "Groups": [
                     {
-                        "Caption": "Intravenous administration",
+                        "Caption": "Model development",
                         "Symbol": "Circle",
                         "OutputMappings": [
                             {
-                                "Project": "Compound",
-                                "Simulation": "Sim 1 - intravenous",
-                                "Output": "Organism|PeripheralVenousBlood|COMPOUND|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Observed data iv",
+                                "Project": "Moxifloxacin",
+                                "Simulation": "Bayer Avelox 3963471_IV_400 mg qd",
+                                "Output": "Organism|PeripheralVenousBlood|Moxifloxacin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Bayer Avelox 3963471_Moxifloxacin_mean_Human_PeripheralVenousBlood_Plasma_400 mg qd_IV_",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Moxifloxacin",
+                                "Simulation": "Bayer Avelox 3963471_PO_400 mg qd",
+                                "Output": "Organism|PeripheralVenousBlood|Moxifloxacin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Bayer Avelox 3963471_Moxifloxacin_mean_Human_PeripheralVenousBlood_Plasma_400 mg qd_PO_",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Moxifloxacin",
+                                "Simulation": "Stass 1999_IV_400 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Moxifloxacin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Stass 1999_Moxifloxacin_mean_Human_PeripheralVenousBlood_Plasma_400 mg_IV_",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Moxifloxacin",
+                                "Simulation": "Stass 1999_PO_400 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Moxifloxacin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Stass 1999_Moxifloxacin_mean_Human_PeripheralVenousBlood_Plasma_400 mg_PO _",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Moxifloxacin",
+                                "Simulation": "Sullivan 1999_PO_400 mg qd",
+                                "Output": "Organism|PeripheralVenousBlood|Moxifloxacin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Sullivan 1999_Moxifloxacin_mean_Human_PeripheralVenousBlood_Plasma_400 mg qd_PO_",
                                 "Color": "#FF0000"
                             }
                         ]
                     },
                     {
-                        "Caption": "Oral administration",
+                        "Caption": "Model evaluation",
                         "Symbol": "Square",
                         "OutputMappings": [
                             {
-                                "Project": "Compound",
-                                "Simulation": "Sim 2 - peroral",
-                                "Output": "Organism|PeripheralVenousBlood|COMPOUND|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Observed data po",
+                                "Project": "Moxifloxacin",
+                                "Simulation": "PH 26024/0101_PO_100 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Moxifloxacin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "PH 26024/0101_Moxifloxacin_mean_Human_PeripheralVenousBlood_Plasma_100 mg_PO_",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Moxifloxacin",
+                                "Simulation": "PH 26024/0101_PO_200 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Moxifloxacin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "PH 26024/0101_Moxifloxacin_mean_Human_PeripheralVenousBlood_Plasma_200 mg_PO_",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Moxifloxacin",
+                                "Simulation": "PH 26024/0101_PO_400 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Moxifloxacin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "PH 26024/0101_Moxifloxacin_mean_Human_PeripheralVenousBlood_Plasma_400 mg_PO_",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Moxifloxacin",
+                                "Simulation": "PH 26024/0101_PO_60 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Moxifloxacin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "PH 26024/0101_Moxifloxacin_mean_Human_PeripheralVenousBlood_Plasma_60 mg_PO_",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Moxifloxacin",
+                                "Simulation": "PH 26024/0101_PO_600 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Moxifloxacin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "PH 26024/0101_Moxifloxacin_mean_Human_PeripheralVenousBlood_Plasma_600 mg_PO_",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Moxifloxacin",
+                                "Simulation": "PH 27517/0139_IV_400 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Moxifloxacin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "PH 27517/0139_Moxifloxacin_mean_Human_PeripheralVenousBlood_Plasma_400 mg_IV_",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Moxifloxacin",
+                                "Simulation": "PH 27517/0139_PO_400 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Moxifloxacin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "PH 27517/0139_Moxifloxacin_mean_Human_PeripheralVenousBlood_Plasma_400 mg_PO_",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Moxifloxacin",
+                                "Simulation": "Siefert 1999_IV_100 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Moxifloxacin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Siefert 1999_Moxifloxacin_mean_Human_PeripheralVenousBlood_Plasma_100 mg_IV_",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Moxifloxacin",
+                                "Simulation": "Siefert 1999_PO_100 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Moxifloxacin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Siefert 1999_Moxifloxacin_mean_Human_PeripheralVenousBlood_Plasma_100 mg_PO_",
                                 "Color": "#FF0000"
                             }
                         ]
@@ -180,13 +324,13 @@
     },
     "Inputs": [
         {
-            "Project": "Compound",
-            "Name": "COMPOUND",
+            "Project": "Moxifloxacin",
+            "Name": "Moxifloxacin",
             "Type": "Compound",
             "SectionReference": "final-input-parameters"
         },
         {
-            "Project": "Compound",
+            "Project": "Moxifloxacin",
             "Name": "Tablet",
             "Type": "Formulation",
             "SectionReference": "final-input-parameters"
