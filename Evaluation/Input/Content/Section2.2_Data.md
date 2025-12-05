@@ -45,7 +45,6 @@ The following studies were used for model verification:
 | [Siefert 1999](#main-references) | Healthy Subjects with a single PO dose of 100 mg          |
 | [U.S. Food and Drug Administration 2000](#main-references) | Healthy Subjects with a single IV dose of 400 mg (Study PH 27517/0139)         |
 | [U.S. Food and Drug Administration 2000](#main-references) | Healthy Subjects with a single PO dose of 400 mg (Study PH 27517/0139)         |
-| [U.S. Food and Drug Administration 2000](#main-references) | Healthy Subjects with a single PO dose of 60 mg (Study PH 26024/0101)        |
 | [U.S. Food and Drug Administration 2000](#main-references) | Healthy Subjects with a single PO dose of 60 mg (Study PH 26024/0101)         |
 | [U.S. Food and Drug Administration 2000](#main-references) | Healthy Subjects with a single PO dose of 100 mg (Study PH 26024/0101)         |
 | [U.S. Food and Drug Administration 2000](#main-references) | Healthy Subjects with a single PO dose of 200 mg (Study PH 26024/0101)         |

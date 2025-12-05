@@ -495,10 +495,7 @@
       "Parameters": [
         {
           "Name": "F",
-          "Value": 1.0,
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
+          "Value": 1.0
         },
         {
           "Name": "Molecular weight",
@@ -555,17 +552,17 @@
           "Unit": "mg"
         },
         {
+          "Name": "Infusion time",
+          "Value": 0.5,
+          "Unit": "h"
+        },
+        {
           "Name": "End time",
           "Value": 10.0,
           "Unit": "day(s)",
           "ValueOrigin": {
             "Source": "Unknown"
           }
-        },
-        {
-          "Name": "Infusion time",
-          "Value": 0.5,
-          "Unit": "h"
         }
       ]
     },
@@ -585,17 +582,17 @@
           "Unit": "mg"
         },
         {
+          "Name": "Infusion time",
+          "Value": 1.0,
+          "Unit": "h"
+        },
+        {
           "Name": "End time",
           "Value": 10.0,
           "Unit": "day(s)",
           "ValueOrigin": {
             "Source": "Unknown"
           }
-        },
-        {
-          "Name": "Infusion time",
-          "Value": 1.0,
-          "Unit": "h"
         }
       ]
     },
@@ -615,17 +612,17 @@
           "Unit": "mg"
         },
         {
+          "Name": "Infusion time",
+          "Value": 1.0,
+          "Unit": "h"
+        },
+        {
           "Name": "End time",
           "Value": 10.0,
           "Unit": "day(s)",
           "ValueOrigin": {
             "Source": "Unknown"
           }
-        },
-        {
-          "Name": "Infusion time",
-          "Value": 1.0,
-          "Unit": "h"
         }
       ]
     },
@@ -645,17 +642,17 @@
           "Unit": "mg"
         },
         {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
           "Name": "End time",
           "Value": 10.0,
           "Unit": "day(s)",
           "ValueOrigin": {
             "Source": "Unknown"
           }
-        },
-        {
-          "Name": "Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
         }
       ]
     },
@@ -675,17 +672,17 @@
           "Unit": "mg"
         },
         {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
           "Name": "End time",
           "Value": 10.0,
           "Unit": "day(s)",
           "ValueOrigin": {
             "Source": "Unknown"
           }
-        },
-        {
-          "Name": "Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
         }
       ]
     },
@@ -705,17 +702,17 @@
           "Unit": "mg"
         },
         {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
           "Name": "End time",
           "Value": 10.0,
           "Unit": "day(s)",
           "ValueOrigin": {
             "Source": "Unknown"
           }
-        },
-        {
-          "Name": "Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
         }
       ]
     },
@@ -735,17 +732,17 @@
           "Unit": "mg"
         },
         {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
           "Name": "End time",
           "Value": 10.0,
           "Unit": "day(s)",
           "ValueOrigin": {
             "Source": "Unknown"
           }
-        },
-        {
-          "Name": "Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
         }
       ]
     },
@@ -765,17 +762,17 @@
           "Unit": "mg"
         },
         {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
           "Name": "End time",
           "Value": 10.0,
           "Unit": "day(s)",
           "ValueOrigin": {
             "Source": "Unknown"
           }
-        },
-        {
-          "Name": "Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
         }
       ]
     },
@@ -795,17 +792,17 @@
           "Unit": "mg"
         },
         {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
           "Name": "End time",
           "Value": 10.0,
           "Unit": "day(s)",
           "ValueOrigin": {
             "Source": "Unknown"
           }
-        },
-        {
-          "Name": "Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
         }
       ]
     }
@@ -892,6 +889,28 @@
         "Organism|Moxifloxacin-SULT2A1-Fit Metabolite|Total fraction of dose-Moxifloxacin",
         "Organism|Moxifloxacin-UGT1A1-Litjens 2022 Metabolite|Total fraction of dose-Moxifloxacin",
         "Organism|Kidney|Urine|Moxifloxacin|Fraction excreted to urine"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Linear",
+          "Path": "Stass 1999_IV_400 mg|Organism|Moxifloxacin-SULT2A1-Fit Metabolite|Total fraction of dose-Moxifloxacin",
+          "ObservedData": "Stass 1999_Moxifloxacin_mean_Human__Metabolized SULT2A1___"
+        },
+        {
+          "Scaling": "Linear",
+          "Path": "Stass 1999_IV_400 mg|Organism|Moxifloxacin-UGT1A1-Litjens 2022 Metabolite|Total fraction of dose-Moxifloxacin",
+          "ObservedData": "Stass 1999_Moxifloxacin_mean_Human__Metabolized UGT1A1___"
+        },
+        {
+          "Scaling": "Linear",
+          "Path": "Stass 1999_IV_400 mg|Organism|Kidney|Urine|Moxifloxacin|Fraction excreted to urine",
+          "ObservedData": "Stass 1999_Moxifloxacin_mean_Human_Kidney_Urine_400 mg_IV_"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Stass 1999_IV_400 mg|Organism|PeripheralVenousBlood|Moxifloxacin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Stass 1999_Moxifloxacin_mean_Human_PeripheralVenousBlood_Plasma_400 mg_IV_"
+        }
       ],
       "Individual": "Stass 1999",
       "Compounds": [
@@ -1207,6 +1226,13 @@
         "Organism|Moxifloxacin-UGT1A1-Litjens 2022 Metabolite|Total fraction of dose-Moxifloxacin",
         "Organism|Kidney|Urine|Moxifloxacin|Fraction excreted to urine"
       ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Bayer Avelox 3963471_IV_400 mg qd|Organism|PeripheralVenousBlood|Moxifloxacin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Bayer Avelox 3963471_Moxifloxacin_mean_Human_PeripheralVenousBlood_Plasma_400 mg qd_IV_"
+        }
+      ],
       "Individual": "Male",
       "Compounds": [
         {
@@ -1272,6 +1298,7 @@
             },
             {
               "Unit": "",
+              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -1406,6 +1433,28 @@
         "Organism|Moxifloxacin-SULT2A1-Fit Metabolite|Total fraction of dose-Moxifloxacin",
         "Organism|Moxifloxacin-UGT1A1-Litjens 2022 Metabolite|Total fraction of dose-Moxifloxacin",
         "Organism|Kidney|Urine|Moxifloxacin|Fraction excreted to urine"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Linear",
+          "Path": "Stass 1999_PO_400 mg|Organism|Moxifloxacin-SULT2A1-Fit Metabolite|Total fraction of dose-Moxifloxacin",
+          "ObservedData": "Stass 1999_Moxifloxacin_mean_Human__Metabolized SULT2A1___"
+        },
+        {
+          "Scaling": "Linear",
+          "Path": "Stass 1999_PO_400 mg|Organism|Moxifloxacin-UGT1A1-Litjens 2022 Metabolite|Total fraction of dose-Moxifloxacin",
+          "ObservedData": "Stass 1999_Moxifloxacin_mean_Human__Metabolized UGT1A1___"
+        },
+        {
+          "Scaling": "Linear",
+          "Path": "Stass 1999_PO_400 mg|Organism|Kidney|Urine|Moxifloxacin|Fraction excreted to urine",
+          "ObservedData": "Stass 1999_Moxifloxacin_mean_Human_Kidney_Urine_400 mg_PO _"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Stass 1999_PO_400 mg|Organism|PeripheralVenousBlood|Moxifloxacin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Stass 1999_Moxifloxacin_mean_Human_PeripheralVenousBlood_Plasma_400 mg_PO _"
+        }
       ],
       "Individual": "Stass 1999",
       "Compounds": [
@@ -1727,6 +1776,13 @@
         "Organism|Moxifloxacin-UGT1A1-Litjens 2022 Metabolite|Total fraction of dose-Moxifloxacin",
         "Organism|Kidney|Urine|Moxifloxacin|Fraction excreted to urine"
       ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Bayer Avelox 3963471_PO_400 mg qd|Organism|PeripheralVenousBlood|Moxifloxacin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Bayer Avelox 3963471_Moxifloxacin_mean_Human_PeripheralVenousBlood_Plasma_400 mg qd_PO_"
+        }
+      ],
       "Individual": "Male",
       "Compounds": [
         {
@@ -1780,8 +1836,6 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "Min": 188.7531,
-              "Max": 218.5317,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
@@ -1793,8 +1847,6 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "Min": 0.4884353,
-              "Max": 6.214312,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
@@ -1802,11 +1854,10 @@
             },
             {
               "Unit": "",
+              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
-              "Min": 0.02309033,
-              "Max": 0.2940324,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Dash",
               "Scaling": "Linear",
@@ -1980,6 +2031,13 @@
         "Organism|Moxifloxacin-UGT1A1-Litjens 2022 Metabolite|Total fraction of dose-Moxifloxacin",
         "Organism|Kidney|Urine|Moxifloxacin|Fraction excreted to urine"
       ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Sullivan 1999_PO_400 mg qd|Organism|PeripheralVenousBlood|Moxifloxacin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Sullivan 1999_Moxifloxacin_mean_Human_PeripheralVenousBlood_Plasma_400 mg qd_PO_"
+        }
+      ],
       "Individual": "Sullivan 1999",
       "Compounds": [
         {
@@ -2051,6 +2109,7 @@
             },
             {
               "Unit": "",
+              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -2182,6 +2241,13 @@
         "Organism|Moxifloxacin-UGT1A1-Litjens 2022 Metabolite|Total fraction of dose-Moxifloxacin",
         "Organism|Kidney|Urine|Moxifloxacin|Fraction excreted to urine"
       ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Siefert 1999_IV_100 mg|Organism|PeripheralVenousBlood|Moxifloxacin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Siefert 1999_Moxifloxacin_mean_Human_PeripheralVenousBlood_Plasma_100 mg_IV_"
+        }
+      ],
       "Individual": "Siefert 1999",
       "Compounds": [
         {
@@ -2247,6 +2313,7 @@
             },
             {
               "Unit": "",
+              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -2378,6 +2445,13 @@
         "Organism|Moxifloxacin-UGT1A1-Litjens 2022 Metabolite|Total fraction of dose-Moxifloxacin",
         "Organism|Kidney|Urine|Moxifloxacin|Fraction excreted to urine"
       ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Siefert 1999_PO_100 mg|Organism|PeripheralVenousBlood|Moxifloxacin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Siefert 1999_Moxifloxacin_mean_Human_PeripheralVenousBlood_Plasma_100 mg_PO_"
+        }
+      ],
       "Individual": "Siefert 1999",
       "Compounds": [
         {
@@ -2449,6 +2523,7 @@
             },
             {
               "Unit": "",
+              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -2580,6 +2655,13 @@
         "Organism|Moxifloxacin-UGT1A1-Litjens 2022 Metabolite|Total fraction of dose-Moxifloxacin",
         "Organism|Kidney|Urine|Moxifloxacin|Fraction excreted to urine"
       ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "PH 27517/0139_IV_400 mg|Organism|PeripheralVenousBlood|Moxifloxacin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "PH 27517/0139_Moxifloxacin_mean_Human_PeripheralVenousBlood_Plasma_400 mg_IV_"
+        }
+      ],
       "Individual": "Male",
       "Compounds": [
         {
@@ -2645,6 +2727,7 @@
             },
             {
               "Unit": "",
+              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -2776,6 +2859,13 @@
         "Organism|Moxifloxacin-UGT1A1-Litjens 2022 Metabolite|Total fraction of dose-Moxifloxacin",
         "Organism|Kidney|Urine|Moxifloxacin|Fraction excreted to urine"
       ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "PH 27517/0139_PO_400 mg|Organism|PeripheralVenousBlood|Moxifloxacin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "PH 27517/0139_Moxifloxacin_mean_Human_PeripheralVenousBlood_Plasma_400 mg_PO_"
+        }
+      ],
       "Individual": "Male",
       "Compounds": [
         {
@@ -2847,6 +2937,7 @@
             },
             {
               "Unit": "",
+              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -2978,6 +3069,13 @@
         "Organism|Moxifloxacin-UGT1A1-Litjens 2022 Metabolite|Total fraction of dose-Moxifloxacin",
         "Organism|Kidney|Urine|Moxifloxacin|Fraction excreted to urine"
       ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "PH 26024/0101_PO_200 mg|Organism|PeripheralVenousBlood|Moxifloxacin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "PH 26024/0101_Moxifloxacin_mean_Human_PeripheralVenousBlood_Plasma_200 mg_PO_"
+        }
+      ],
       "Individual": "Male",
       "Compounds": [
         {
@@ -3049,6 +3147,7 @@
             },
             {
               "Unit": "",
+              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -3180,6 +3279,13 @@
         "Organism|Moxifloxacin-UGT1A1-Litjens 2022 Metabolite|Total fraction of dose-Moxifloxacin",
         "Organism|Kidney|Urine|Moxifloxacin|Fraction excreted to urine"
       ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "PH 26024/0101_PO_100 mg|Organism|PeripheralVenousBlood|Moxifloxacin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "PH 26024/0101_Moxifloxacin_mean_Human_PeripheralVenousBlood_Plasma_100 mg_PO_"
+        }
+      ],
       "Individual": "Male",
       "Compounds": [
         {
@@ -3251,6 +3357,7 @@
             },
             {
               "Unit": "",
+              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -3382,6 +3489,13 @@
         "Organism|Moxifloxacin-UGT1A1-Litjens 2022 Metabolite|Total fraction of dose-Moxifloxacin",
         "Organism|Kidney|Urine|Moxifloxacin|Fraction excreted to urine"
       ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "PH 26024/0101_PO_400 mg|Organism|PeripheralVenousBlood|Moxifloxacin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "PH 26024/0101_Moxifloxacin_mean_Human_PeripheralVenousBlood_Plasma_400 mg_PO_"
+        }
+      ],
       "Individual": "Male",
       "Compounds": [
         {
@@ -3453,6 +3567,7 @@
             },
             {
               "Unit": "",
+              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -3584,6 +3699,13 @@
         "Organism|Moxifloxacin-UGT1A1-Litjens 2022 Metabolite|Total fraction of dose-Moxifloxacin",
         "Organism|Kidney|Urine|Moxifloxacin|Fraction excreted to urine"
       ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "PH 26024/0101_PO_60 mg|Organism|PeripheralVenousBlood|Moxifloxacin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "PH 26024/0101_Moxifloxacin_mean_Human_PeripheralVenousBlood_Plasma_60 mg_PO_"
+        }
+      ],
       "Individual": "Male",
       "Compounds": [
         {
@@ -3655,6 +3777,7 @@
             },
             {
               "Unit": "",
+              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -3786,6 +3909,13 @@
         "Organism|Moxifloxacin-UGT1A1-Litjens 2022 Metabolite|Total fraction of dose-Moxifloxacin",
         "Organism|Kidney|Urine|Moxifloxacin|Fraction excreted to urine"
       ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "PH 26024/0101_PO_600 mg|Organism|PeripheralVenousBlood|Moxifloxacin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "PH 26024/0101_Moxifloxacin_mean_Human_PeripheralVenousBlood_Plasma_600 mg_PO_"
+        }
+      ],
       "Individual": "Male",
       "Compounds": [
         {
@@ -3857,6 +3987,7 @@
             },
             {
               "Unit": "",
+              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -3937,7 +4068,7 @@
             },
             {
               "Name": "MaxIterations",
-              "Value": 10000,
+              "Value": "10000",
               "Type": "String"
             }
           ]
@@ -3993,31 +4124,6 @@
               "Name": "MaxValue",
               "Value": 0.6358557548,
               "Unit": "1/min"
-            }
-          ]
-        },
-        {
-          "Name": "CLspec/[Enzyme]",
-          "Scaling": "Linear",
-          "LinkedParameters": [
-            "Stass 1999_IV_400 mg|Moxifloxacin-UGT1A1-Litjens 2021|CLspec/[Enzyme]",
-            "Bayer Avelox 3963471_IV_400 mg qd|Moxifloxacin-UGT1A1-Litjens 2021|CLspec/[Enzyme]"
-          ],
-          "Parameters": [
-            {
-              "Name": "Start value",
-              "Value": 0.058,
-              "Unit": "l/µmol/min"
-            },
-            {
-              "Name": "MinValue",
-              "Value": 0.0,
-              "Unit": "l/µmol/min"
-            },
-            {
-              "Name": "MaxValue",
-              "Value": 0.58,
-              "Unit": "l/µmol/min"
             }
           ]
         }
@@ -4152,15 +4258,6 @@
                 "CurveOptions": {
                   "Color": "#FF00FF",
                   "LegendIndex": 8
-                }
-              },
-              {
-                "Name": "Stass 1999_IV_400 mg-Moxifloxacin-UGT1A1-Litjens 2021 Metabolite-Organism-Total fraction of dose-Moxifloxacin",
-                "X": "Time",
-                "Y": "Stass 1999_IV_400 mg|Organism|Moxifloxacin-UGT1A1-Litjens 2021 Metabolite|Total fraction of dose-Moxifloxacin",
-                "CurveOptions": {
-                  "Color": "#FF8000",
-                  "LegendIndex": 9
                 }
               },
               {
@@ -7010,25 +7107,25 @@
     {
       "Name": "Model development",
       "Classifiables": [
-        "Bayer Avelox 3963471_IV_400 mg qd",
-        "Bayer Avelox 3963471_PO_400 mg qd",
         "Stass 1999_IV_400 mg",
+        "Bayer Avelox 3963471_IV_400 mg qd",
         "Stass 1999_PO_400 mg",
+        "Bayer Avelox 3963471_PO_400 mg qd",
         "Sullivan 1999_PO_400 mg qd"
       ]
     },
     {
       "Name": "Model evaluation",
       "Classifiables": [
-        "PH 26024/0101_PO_100 mg",
-        "PH 26024/0101_PO_200 mg",
-        "PH 26024/0101_PO_400 mg",
-        "PH 26024/0101_PO_60 mg",
-        "PH 26024/0101_PO_600 mg",
+        "Siefert 1999_IV_100 mg",
+        "Siefert 1999_PO_100 mg",
         "PH 27517/0139_IV_400 mg",
         "PH 27517/0139_PO_400 mg",
-        "Siefert 1999_IV_100 mg",
-        "Siefert 1999_PO_100 mg"
+        "PH 26024/0101_PO_200 mg",
+        "PH 26024/0101_PO_100 mg",
+        "PH 26024/0101_PO_400 mg",
+        "PH 26024/0101_PO_60 mg",
+        "PH 26024/0101_PO_600 mg"
       ]
     }
   ]
