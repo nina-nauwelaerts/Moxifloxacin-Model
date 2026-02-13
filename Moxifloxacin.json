@@ -812,7 +812,6 @@
       "Name": "Stass 1999_IV_400 mg",
       "Model": "4Comp",
       "ObservedData": [
-        "Stass 1999_Moxifloxacin_mean_Human__Feces_400 mg_IV_",
         "Stass 1999_Moxifloxacin_mean_Human_Kidney_Urine_400 mg_IV_",
         "Stass 1999_Moxifloxacin_mean_Human_PeripheralVenousBlood_Plasma_400 mg_IV_",
         "Stass 1999_Moxifloxacin_mean_Human__Metabolized SULT2A1___",
@@ -1018,6 +1017,17 @@
                 "yAxisType": "Y2",
                 "Color": "#FF00FF",
                 "LegendIndex": 4,
+                "LineStyle": "Dash"
+              }
+            },
+            {
+              "Name": "Moxifloxacin-UGT1A1-Litjens 2022 Metabolite-Organism-Total fraction of dose-Moxifloxacin",
+              "X": "Time",
+              "Y": "Stass 1999_IV_400 mg|Organism|Moxifloxacin-UGT1A1-Litjens 2022 Metabolite|Total fraction of dose-Moxifloxacin",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#008000",
+                "LegendIndex": 10,
                 "LineStyle": "Dash"
               }
             },
@@ -1345,7 +1355,6 @@
       "ObservedData": [
         "Stass 1999_Moxifloxacin_mean_Human_PeripheralVenousBlood_Plasma_400 mg_PO_",
         "Stass 1999_Moxifloxacin_mean_Human_Kidney_Urine_400 mg_PO_",
-        "Stass 1999_Moxifloxacin_mean_Human__Feces_400 mg_PO_",
         "Stass 1999_Moxifloxacin_mean_Human__Metabolized SULT2A1___",
         "Stass 1999_Moxifloxacin_mean_Human__Metabolized UGT1A1___"
       ],
@@ -1579,6 +1588,17 @@
                 "LegendIndex": 6,
                 "LineStyle": "None",
                 "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Moxifloxacin-UGT1A1-Litjens 2022 Metabolite-Organism-Total fraction of dose-Moxifloxacin",
+              "X": "Time",
+              "Y": "Stass 1999_PO_400 mg|Organism|Moxifloxacin-UGT1A1-Litjens 2022 Metabolite|Total fraction of dose-Moxifloxacin",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#008000",
+                "LegendIndex": 10,
+                "LineStyle": "Dash"
               }
             },
             {

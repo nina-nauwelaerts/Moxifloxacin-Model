@@ -14,7 +14,7 @@
 
 **Siefert 1999** Siefert HM, Domdey-Bette A, Henninger K, Hucke F, Kohlsdorfer C, Stass HH. Pharmacokinetics of the 8-methoxyquinolone, moxifloxacin: a comparison in humans and other mammalian species. J Antimicrob Chemother. 1999 May;43 Suppl B:69-76. doi: 10.1093/jac/43.suppl_2.69. PMID: 10382878.
 
-**Stass and Kabitza 1999** Stass H, Kubitza D. Pharmacokinetics and elimination of moxifloxacin after oral and intravenous administration in man. J Antimicrob Chemother. 1999 May;43 Suppl B:83-90. doi: 10.1093/jac/43.suppl_2.83. 
+**Stass and Kubitza 1999** Stass H, Kubitza D. Pharmacokinetics and elimination of moxifloxacin after oral and intravenous administration in man. J Antimicrob Chemother. 1999 May;43 Suppl B:83-90. doi: 10.1093/jac/43.suppl_2.83. 
 
 **Sullivan 1999** Sullivan JT, Woodruff M, Lettieri J, Agarwal V, Krol GJ, Leese PT, Watson S, Heller AH. Pharmacokinetics of a once-daily oral dose of moxifloxacin (Bay 12-8039), a new enantiomerically pure 8-methoxy quinolone. Antimicrob Agents Chemother. 1999 Nov;43(11):2793-7. doi: 10.1128/AAC.43.11.2793.
 

@@ -29,8 +29,8 @@ The following studies were used for model building (training data):
 
 | Publication                 | Arm / Treatment / Information used for model building |
 | :-------------------------- | :---------------------------------------------------- |
-| [Stass and Kabitza 1999](#main-references) | Healthy Subjects with a single IV dose of 400 mg           |
-| [Stass and Kabitza 1999](#main-references) | Healthy Subjects with a single PO dose of 400 mg           |
+| [Stass and Kubitza 1999](#main-references) | Healthy Subjects with a single IV dose of 400 mg           |
+| [Stass and Kubitza 1999](#main-references) | Healthy Subjects with a single PO dose of 400 mg           |
 | [U.S. Food and Drug Administration 2016](#main-references)                         | Healthy Subjects with IV doses of  400 mg QD                                                  |
 | [U.S. Food and Drug Administration 2016](#main-references)                         | Healthy Subjects with PO doses of  400 mg QD                                                  |
 | [Sullivan 1999](#main-references)                         | Healthy Subjects with PO doses of  400 mg QD                                                   |
