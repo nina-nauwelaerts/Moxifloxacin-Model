@@ -234,7 +234,7 @@
                                 "Project": "Moxifloxacin",
                                 "Simulation": "Stass 1999_PO_400 mg",
                                 "Output": "Organism|PeripheralVenousBlood|Moxifloxacin|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Stass 1999_Moxifloxacin_mean_Human_PeripheralVenousBlood_Plasma_400 mg_PO _",
+                                "ObservedData": "Stass 1999_Moxifloxacin_mean_Human_PeripheralVenousBlood_Plasma_400 mg_PO_",
                                 "Color": "#FF0000"
                             },
                             {

@@ -1022,18 +1022,6 @@
               }
             },
             {
-              "Name": "Stass 1999_Moxifloxacin_mean_Human__Feces_400 mg_IV_-Moxifloxacin-Feces-Measurement",
-              "X": "Stass 1999_Moxifloxacin_mean_Human__Feces_400 mg_IV_|Time",
-              "Y": "Stass 1999_Moxifloxacin_mean_Human__Feces_400 mg_IV_|ObservedData||Feces|Moxifloxacin|Measurement",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#FF8000",
-                "LegendIndex": 5,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
               "Name": "Stass 1999_Moxifloxacin_mean_Human_Kidney_Urine_400 mg_IV_-Moxifloxacin-Kidney-Urine-Measurement",
               "X": "Stass 1999_Moxifloxacin_mean_Human_Kidney_Urine_400 mg_IV_|Time",
               "Y": "Stass 1999_Moxifloxacin_mean_Human_Kidney_Urine_400 mg_IV_|ObservedData|Kidney|Urine|Moxifloxacin|Measurement",
@@ -1298,7 +1286,6 @@
             },
             {
               "Unit": "",
-              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -1356,9 +1343,9 @@
       "Name": "Stass 1999_PO_400 mg",
       "Model": "4Comp",
       "ObservedData": [
-        "Stass 1999_Moxifloxacin_mean_Human_PeripheralVenousBlood_Plasma_400 mg_PO _",
-        "Stass 1999_Moxifloxacin_mean_Human_Kidney_Urine_400 mg_PO _",
-        "Stass 1999_Moxifloxacin_mean_Human__Feces_400 mg_PO _",
+        "Stass 1999_Moxifloxacin_mean_Human_PeripheralVenousBlood_Plasma_400 mg_PO_",
+        "Stass 1999_Moxifloxacin_mean_Human_Kidney_Urine_400 mg_PO_",
+        "Stass 1999_Moxifloxacin_mean_Human__Feces_400 mg_PO_",
         "Stass 1999_Moxifloxacin_mean_Human__Metabolized SULT2A1___",
         "Stass 1999_Moxifloxacin_mean_Human__Metabolized UGT1A1___"
       ],
@@ -1448,12 +1435,12 @@
         {
           "Scaling": "Linear",
           "Path": "Stass 1999_PO_400 mg|Organism|Kidney|Urine|Moxifloxacin|Fraction excreted to urine",
-          "ObservedData": "Stass 1999_Moxifloxacin_mean_Human_Kidney_Urine_400 mg_PO _"
+          "ObservedData": "Stass 1999_Moxifloxacin_mean_Human_Kidney_Urine_400 mg_PO_"
         },
         {
           "Scaling": "Log",
           "Path": "Stass 1999_PO_400 mg|Organism|PeripheralVenousBlood|Moxifloxacin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Stass 1999_Moxifloxacin_mean_Human_PeripheralVenousBlood_Plasma_400 mg_PO _"
+          "ObservedData": "Stass 1999_Moxifloxacin_mean_Human_PeripheralVenousBlood_Plasma_400 mg_PO_"
         }
       ],
       "Individual": "Stass 1999",
@@ -1573,8 +1560,8 @@
             },
             {
               "Name": "Stass 1999_Moxifloxacin_mean_Human_PeripheralVenousBlood_Plasma_400 mg_PO _-Moxifloxacin-PeripheralVenousBlood-Plasma-Measurement",
-              "X": "Stass 1999_Moxifloxacin_mean_Human_PeripheralVenousBlood_Plasma_400 mg_PO _|Time",
-              "Y": "Stass 1999_Moxifloxacin_mean_Human_PeripheralVenousBlood_Plasma_400 mg_PO _|ObservedData|PeripheralVenousBlood|Plasma|Moxifloxacin|Measurement",
+              "X": "Stass 1999_Moxifloxacin_mean_Human_PeripheralVenousBlood_Plasma_400 mg_PO_|Time",
+              "Y": "Stass 1999_Moxifloxacin_mean_Human_PeripheralVenousBlood_Plasma_400 mg_PO_|ObservedData|PeripheralVenousBlood|Plasma|Moxifloxacin|Measurement",
               "CurveOptions": {
                 "Color": "#FF0000",
                 "LegendIndex": 5,
@@ -1584,24 +1571,12 @@
             },
             {
               "Name": "Stass 1999_Moxifloxacin_mean_Human_Kidney_Urine_400 mg_PO _-Moxifloxacin-Kidney-Urine-Measurement",
-              "X": "Stass 1999_Moxifloxacin_mean_Human_Kidney_Urine_400 mg_PO _|Time",
-              "Y": "Stass 1999_Moxifloxacin_mean_Human_Kidney_Urine_400 mg_PO _|ObservedData|Kidney|Urine|Moxifloxacin|Measurement",
+              "X": "Stass 1999_Moxifloxacin_mean_Human_Kidney_Urine_400 mg_PO_|Time",
+              "Y": "Stass 1999_Moxifloxacin_mean_Human_Kidney_Urine_400 mg_PO_|ObservedData|Kidney|Urine|Moxifloxacin|Measurement",
               "CurveOptions": {
                 "yAxisType": "Y2",
                 "Color": "#FF00FF",
                 "LegendIndex": 6,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Stass 1999_Moxifloxacin_mean_Human__Feces_400 mg_PO _-Moxifloxacin-Feces-Measurement",
-              "X": "Stass 1999_Moxifloxacin_mean_Human__Feces_400 mg_PO _|Time",
-              "Y": "Stass 1999_Moxifloxacin_mean_Human__Feces_400 mg_PO _|ObservedData||Feces|Moxifloxacin|Measurement",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#FF8000",
-                "LegendIndex": 7,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
@@ -1854,7 +1829,6 @@
             },
             {
               "Unit": "",
-              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -2109,7 +2083,6 @@
             },
             {
               "Unit": "",
-              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -2313,7 +2286,6 @@
             },
             {
               "Unit": "",
-              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -2523,7 +2495,6 @@
             },
             {
               "Unit": "",
-              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -2727,7 +2698,6 @@
             },
             {
               "Unit": "",
-              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -2937,7 +2907,6 @@
             },
             {
               "Unit": "",
-              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -3147,7 +3116,6 @@
             },
             {
               "Unit": "",
-              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -3357,7 +3325,6 @@
             },
             {
               "Unit": "",
-              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -3567,7 +3534,6 @@
             },
             {
               "Unit": "",
-              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -3777,7 +3743,6 @@
             },
             {
               "Unit": "",
-              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -3987,7 +3952,6 @@
             },
             {
               "Unit": "",
-              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -4638,7 +4602,7 @@
       }
     },
     {
-      "Name": "Stass 1999_Moxifloxacin_mean_Human_PeripheralVenousBlood_Plasma_400 mg_PO _",
+      "Name": "Stass 1999_Moxifloxacin_mean_Human_PeripheralVenousBlood_Plasma_400 mg_PO_",
       "ExtendedProperties": [
         {
           "Name": "Sheet",
@@ -4698,7 +4662,7 @@
             {
               "Name": "Error",
               "QuantityInfo": {
-                "Path": "Stass 1999_Moxifloxacin_mean_Human_PeripheralVenousBlood_Plasma_400 mg_PO _|ObservedData|PeripheralVenousBlood|Plasma|Moxifloxacin|Error"
+                "Path": "Stass 1999_Moxifloxacin_mean_Human_PeripheralVenousBlood_Plasma_400 mg_PO_|ObservedData|PeripheralVenousBlood|Plasma|Moxifloxacin|Error"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
@@ -4728,7 +4692,7 @@
             }
           ],
           "QuantityInfo": {
-            "Path": "Stass 1999_Moxifloxacin_mean_Human_PeripheralVenousBlood_Plasma_400 mg_PO _|ObservedData|PeripheralVenousBlood|Plasma|Moxifloxacin|Measurement"
+            "Path": "Stass 1999_Moxifloxacin_mean_Human_PeripheralVenousBlood_Plasma_400 mg_PO_|ObservedData|PeripheralVenousBlood|Plasma|Moxifloxacin|Measurement"
           },
           "DataInfo": {
             "Origin": "Observation",
@@ -4761,7 +4725,7 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Path": "Stass 1999_Moxifloxacin_mean_Human_PeripheralVenousBlood_Plasma_400 mg_PO _|Time",
+          "Path": "Stass 1999_Moxifloxacin_mean_Human_PeripheralVenousBlood_Plasma_400 mg_PO_|Time",
           "Type": "Time"
         },
         "DataInfo": {
@@ -4917,7 +4881,7 @@
       }
     },
     {
-      "Name": "Stass 1999_Moxifloxacin_mean_Human_Kidney_Urine_400 mg_PO _",
+      "Name": "Stass 1999_Moxifloxacin_mean_Human_Kidney_Urine_400 mg_PO_",
       "ExtendedProperties": [
         {
           "Name": "Sheet",
@@ -4977,7 +4941,7 @@
             {
               "Name": "Error",
               "QuantityInfo": {
-                "Path": "Stass 1999_Moxifloxacin_mean_Human_Kidney_Urine_400 mg_PO _|ObservedData|Kidney|Urine|Moxifloxacin|Error"
+                "Path": "Stass 1999_Moxifloxacin_mean_Human_Kidney_Urine_400 mg_PO_|ObservedData|Kidney|Urine|Moxifloxacin|Error"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
@@ -4999,7 +4963,7 @@
             }
           ],
           "QuantityInfo": {
-            "Path": "Stass 1999_Moxifloxacin_mean_Human_Kidney_Urine_400 mg_PO _|ObservedData|Kidney|Urine|Moxifloxacin|Measurement"
+            "Path": "Stass 1999_Moxifloxacin_mean_Human_Kidney_Urine_400 mg_PO_|ObservedData|Kidney|Urine|Moxifloxacin|Measurement"
           },
           "DataInfo": {
             "Origin": "Observation",
@@ -5022,7 +4986,7 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Path": "Stass 1999_Moxifloxacin_mean_Human_Kidney_Urine_400 mg_PO _|Time",
+          "Path": "Stass 1999_Moxifloxacin_mean_Human_Kidney_Urine_400 mg_PO_|Time",
           "Type": "Time"
         },
         "DataInfo": {
@@ -5146,7 +5110,7 @@
       }
     },
     {
-      "Name": "Stass 1999_Moxifloxacin_mean_Human__Feces_400 mg_PO _",
+      "Name": "Stass 1999_Moxifloxacin_mean_Human__Feces_400 mg_PO_",
       "ExtendedProperties": [
         {
           "Name": "Sheet",
@@ -5201,7 +5165,7 @@
             {
               "Name": "Error",
               "QuantityInfo": {
-                "Path": "Stass 1999_Moxifloxacin_mean_Human__Feces_400 mg_PO _|ObservedData||Feces|Moxifloxacin|Error"
+                "Path": "Stass 1999_Moxifloxacin_mean_Human__Feces_400 mg_PO_|ObservedData||Feces|Moxifloxacin|Error"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
@@ -5217,7 +5181,7 @@
             }
           ],
           "QuantityInfo": {
-            "Path": "Stass 1999_Moxifloxacin_mean_Human__Feces_400 mg_PO _|ObservedData||Feces|Moxifloxacin|Measurement"
+            "Path": "Stass 1999_Moxifloxacin_mean_Human__Feces_400 mg_PO_|ObservedData||Feces|Moxifloxacin|Measurement"
           },
           "DataInfo": {
             "Origin": "Observation",
@@ -5234,7 +5198,7 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Path": "Stass 1999_Moxifloxacin_mean_Human__Feces_400 mg_PO _|Time",
+          "Path": "Stass 1999_Moxifloxacin_mean_Human__Feces_400 mg_PO_|Time",
           "Type": "Time"
         },
         "DataInfo": {
@@ -7025,9 +6989,9 @@
         {
           "Name": "PO ",
           "Classifiables": [
-            "Stass 1999_Moxifloxacin_mean_Human_PeripheralVenousBlood_Plasma_400 mg_PO _",
-            "Stass 1999_Moxifloxacin_mean_Human_Kidney_Urine_400 mg_PO _",
-            "Stass 1999_Moxifloxacin_mean_Human__Feces_400 mg_PO _"
+            "Stass 1999_Moxifloxacin_mean_Human_PeripheralVenousBlood_Plasma_400 mg_PO_",
+            "Stass 1999_Moxifloxacin_mean_Human_Kidney_Urine_400 mg_PO_",
+            "Stass 1999_Moxifloxacin_mean_Human__Feces_400 mg_PO_"
           ]
         }
       ],
