@@ -8,7 +8,7 @@ A literature search was performed to collect available information on physicoche
 | pK<sub>a</sub> (acid) |          | 6.25          | [Langlois 2005](#main-references)         | Acid dissociation constant                      |
 | pK<sub>a</sub> (base) |          | 9.29          | [Langlois 2005](#main-references)         | Acid dissociation constant                      |
 | Solubility (pH) | mg/mL         | 2.9          | [U.S. Pharmacist 2023](#main-references)               | Aqueous Solubility                 |
-| Solubility (pH) | mg/mL         | sparingly soluble in water         | [Willmann 2019](#main-references)               | Aqueous Solubility                |
+| Solubility (pH) |         | sparingly soluble in water         | [Willmann 2019](#main-references)               | Aqueous Solubility                |
 | logMA            |          | 1.8          | [Willmann 2019](#main-references) | Membrane affinity |
 | logP            |          | 0.6          | [Willmann 2019](#main-references) | Partition coefficient between octanol and water |
 | logP            |          | 1.04          | [Edginton 2009](#main-references) | Partition coefficient between octanol and water |
