@@ -14,7 +14,7 @@ A literature search was performed to collect available information on physicoche
 | logP            |          | 1.04          | [Edginton 2009](#main-references) | Partition coefficient between octanol and water |
 | logP            |          | 0.832          | [Litjens 2022](#main-references) | Partition coefficient between octanol and water |
 | fu              | %        | 50          | [Edginton 2009](#main-references)                | Fraction unbound in plasma                      |
-| fu              |         | 0.606          | [Litjens 2022](#main-references)                | Fraction unbound in plasma                      |
+| fu              | %        | 60.6          | [Litjens 2022](#main-references)                | Fraction unbound in plasma                      |
 | fu              | %        | 50-60         | [Willmann 2019](#main-references)                | Fraction unbound in plasma                      |
 | B/P ratio       |          | 1.10          | [Litjens 2022](#main-references)                | Blood to plasma ratio                           |
 | Passive permeability     | 10E-6 cm/s         | 11.5          | [Litjens 2022](#main-references)                | Passive permeability (Caco-2)                           |
